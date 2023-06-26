@@ -1,6 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&family=Kristi&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.sign{
+    font-family: 'Kristi', cursive;
+    color: #F4B429;
+}
+
+.title{
+    font-family: 'DM Serif Display', serif;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+.header-footer-wrapper{
+    margin: 0 auto;
+    width: 90%;
 }
