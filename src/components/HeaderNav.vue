@@ -1,7 +1,7 @@
 <template>
-    <nav class="d-flex justify-content-between">
+    <nav>
         <img class="logo" src="../assets/img/author-logo-round-small.png" alt="">
-        <ul class="d-flex align-items-center">
+        <ul>
             <li>Home</li>
             <li>About Me</li>
             <li>Testimonials</li>
@@ -21,13 +21,20 @@ export default {
 <style lang="scss" scoped>
 
 nav{
-    padding: 0 78px;
-    
-    font-family: 'DM Sans', sans-serif;
+    padding: 4px 87px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo{
     height: 140px;
+}
+
+ul{
+    margin-bottom: 25px;
+    padding-right: 18px;
+    display: flex;
+    align-items: center;
 }
 
 li{
@@ -37,6 +44,10 @@ li{
 
     &:hover{
         color: #F4B429;
+    }
+
+    .fa-chevron-down{
+        vertical-align: 0.1em;
     }
 
     .fa-cart-shopping{
