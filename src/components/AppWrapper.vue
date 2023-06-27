@@ -1,11 +1,11 @@
 <template>
     <div class="fix-button">
         <button>
-            <span>Prebuilds</span>
+            <div>Prebuilds</div>
         </button>
         <button>
-            <i class="fa-light fa-cart-shopping"></i>
-            <span>Buy Now</span>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <div>Buy Now</div>
         </button>
     </div>
     <AppHeader />
@@ -29,7 +29,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
     .fix-button{
         display: flex;
         flex-direction: column;
@@ -42,5 +42,10 @@ export default {
     button{
         border: none;
         border-radius: 5px;
+
+        .fa-cart-shopping{
+            transform: scaleX(-1);
+
+        }
     }
 </style>

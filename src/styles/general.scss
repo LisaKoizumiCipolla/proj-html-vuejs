@@ -18,6 +18,8 @@ body{
 
 .title{
     font-family: 'DM Serif Display', serif;
+    font-size: 2.5rem;
+    color: white;
 }
 
 ul{
@@ -31,8 +33,21 @@ ul{
 
 .wrapper{
     margin: 0 auto;
+    text-align: center;
+    width: 80%;
 }
 
-.button{
+button{
         border-radius:5px;
+        border: none;
+}
+
+.green-button{
+    
+    background-color: #49a987;
+    color: white;
+    padding: 10px 30px;
+    margin: 20px 0 0;
+    font-size: .9rem;
+    font-weight: 600;
 }

@@ -2,16 +2,15 @@
     <div class="wrapper">
         <h1 class="sign">More About Damon Vaughn</h1>
         <p>Damon Vaughn is a professor of psychology at the University of Toronto, a clinical psychologist and the author of the multi-million copy bestseller "The story of my life."</p>
-        <button class="button">Meet The Author</button>
+        <button class="green-button">Meet The Author</button>
     </div>
 </template>
 <script>
 export default {
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
     .wrapper{
-        text-align: center;
         width: 68%;
         padding: 135px 0 100px;
 
@@ -21,13 +20,5 @@ export default {
             font-weight: 500;
         }
 
-        button{
-            background-color: #49a987;
-            color: white;
-            padding: 10px 30px;
-            margin: 20px 0 0;
-            font-size: .9rem;
-            font-weight: 600;
-        }
     }
 </style>
