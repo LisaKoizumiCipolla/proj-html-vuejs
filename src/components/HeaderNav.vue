@@ -2,7 +2,7 @@
     <nav>
         <img class="logo" src="../assets/img/author-logo-round-small.png" alt="">
         <ul>
-            <li>Home</li>
+            <li class="colour">Home</li>
             <li>About Me</li>
             <li>Testimonials</li>
             <li>My Blog</li>
@@ -57,6 +57,10 @@ li{
     span{
         padding-left: 3px;
     }
+}
+
+.colour{
+    color: #F4B429;
 }
     
 </style>

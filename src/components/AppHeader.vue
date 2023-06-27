@@ -10,7 +10,7 @@
                 </div>
                 <div class="buy">
                     <div class="buy-main">
-                        <img src="../assets/img/audible-app-2x-200x209.png" alt="">
+                        <img src="../assets/img/book-widget.webp" alt="">
                         <div class="text">
                             <h2 class="title">Latest Book Release</h2>
                             <h3 class="title">D. VAUGHN AUTOBIOGRAPHY</h3>
@@ -58,8 +58,7 @@ export default {
     }
 
     .text{
-        width: 400px;
-        padding-left: 55px;
+        width: 330px;
 
         h2{
             font-size: 2rem;
@@ -79,7 +78,7 @@ export default {
     .buttons{
         display: flex;
         justify-content: space-between;
-        padding-top: 50px;
+        padding: 10px 0 7px;
     }
 
     button{
