@@ -39,6 +39,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@use '../styles/partials/variables' as *;
     
     header{
         position: relative;
@@ -65,12 +66,12 @@ export default {
         }
 
         h3{
-            color: #F4B429;
+            color: $yellow;
             font-size: 1rem;
         }
 
         p{
-            color: #4f4f4f;
+            color: $gray;
             font-size: 1rem;
         }
     }
@@ -117,7 +118,7 @@ export default {
 
     span{
         font-size: 1.45rem;
-        color: #a6a6a6;
+        color: $light_gray;
     }
 
 </style>

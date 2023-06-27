@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body{
+.main-font{
     font-family: 'DM Sans', sans-serif;
 }
 
@@ -49,5 +49,22 @@ button{
     padding: 10px 30px;
     margin: 20px 0 0;
     font-size: .9rem;
-    font-weight: 600;
+    font-weight: 300;
+    border-radius:5px;
+}
+
+.line{
+    height: 1px;
+    color: #e8e8e8;
+}
+
+.subtitle{
+    
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.gray-text{
+    font-size: 1.1rem;
+    color: #4f4f4f;
 }

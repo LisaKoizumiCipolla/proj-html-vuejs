@@ -17,7 +17,6 @@ export default {
         p{
             font-size: 1.9rem;
             padding-top: 10px;
-            font-weight: 500;
         }
 
     }

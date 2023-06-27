@@ -19,6 +19,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+@use '../styles/partials/variables' as *;
 
 nav{
     padding: 4px 87px 0;
@@ -43,7 +44,7 @@ li{
     font-weight: 400;
 
     &:hover{
-        color: #F4B429;
+        color: $yellow;
     }
 
     .fa-chevron-down{
@@ -60,7 +61,7 @@ li{
 }
 
 .colour{
-    color: #F4B429;
+    color: $yellow;
 }
     
 </style>
