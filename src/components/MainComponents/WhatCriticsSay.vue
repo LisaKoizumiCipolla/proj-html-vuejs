@@ -96,6 +96,10 @@ export default {
                 background-color: #f4b429;
                 padding: 10px 45px;
                 margin-bottom: 40px;
+
+                    &:hover{
+                        background-color: #be8d21;
+                    }
             }
     }
 
@@ -187,6 +191,11 @@ export default {
         .paper{
             color: black;
             font-weight: 300;
+
+                &:hover{
+                    color: $yellow;
+                    cursor: pointer;
+                }
         }
     }
 

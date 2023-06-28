@@ -63,14 +63,16 @@ export default {
 
     .text{
         width: 330px;
+        padding: 20px 0 20px 30px;
 
         h2{
-            font-size: 2rem;
+            font-size: 1.6rem;
         }
 
         h3{
             color: $yellow;
-            font-size: 1rem;
+            font-size: .8em;
+            padding: 10px 0;
         }
 
         p{
@@ -91,6 +93,11 @@ export default {
         padding: 10px 75px;
         background-color: #f4faf8;
         font-size: .9rem;
+
+            &:hover{
+                background-color: #49a987;
+                color: white;
+            }
     }
 
     i{

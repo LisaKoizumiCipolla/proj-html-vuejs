@@ -88,6 +88,10 @@ export default {
                 background-color: #f4b429;
                 padding: 10px 80px;
                 margin-bottom: 40px;
+
+                &:hover{
+                    background-color: #be8d21;
+                }
             }
     }
 
@@ -178,7 +182,7 @@ export default {
         background-color: white;
         bottom: 0;
         width: 82%;
-        padding: 5px 0 0 30px;
+        padding: 5px 0 30px 30px;
 
         .big{
             font-size: 1.6rem;

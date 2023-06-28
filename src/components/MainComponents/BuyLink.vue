@@ -22,6 +22,10 @@ export default {
         img{
             height: 70px;
             margin: 70px 35px;
+
+            &:hover{
+                cursor: pointer;
+            }
         }
     }
 </style>

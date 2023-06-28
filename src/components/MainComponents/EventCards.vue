@@ -29,6 +29,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+@use '../../styles/partials/variables' as *;
         .single-card{
             width: 100%;
             padding: 25px;
@@ -47,6 +48,11 @@ export default {
             font-weight: 300;
             font-size: 1.6rem;
             padding-bottom: 20px;
+
+                    &:hover{
+                        color: $yellow;
+                        cursor: pointer;
+                    }
         }
 
         p{
