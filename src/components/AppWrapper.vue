@@ -46,12 +46,13 @@ export default {
         background-color: white;
         margin-bottom: 10px;
         padding: 5px;
-        font-size: .8rem;
-        font-weight: 600;
+        font-size: .75rem;
+        font-weight: 700;
         color: #4a5259;
+        box-shadow: 0 -5px 20px 5px rgba(0,0,0,.15);
 
         i{
-            padding: 15px 0;
+            padding: 17px;
         }
 
         .fa-cart-shopping{

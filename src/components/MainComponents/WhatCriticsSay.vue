@@ -70,11 +70,7 @@ export default {
 @use '../../styles/partials/variables' as *;
 
 
-    .random{
-        width: 100%;
-        height: 200px;
-        background-color: magenta;
-    }
+    
     .wrapper{
         width: 70%;
         text-align: initial;
