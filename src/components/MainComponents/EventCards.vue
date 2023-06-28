@@ -33,6 +33,11 @@ export default {
         .single-card{
             width: 100%;
             padding: 25px;
+            transition: transform 0.5s;
+
+            &:hover{
+                filter: saturate(50%);
+            }
         }
     
         img{
