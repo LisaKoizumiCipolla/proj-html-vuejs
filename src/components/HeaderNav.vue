@@ -22,7 +22,7 @@ export default {
 @use '../styles/partials/variables' as *;
 
 nav{
-    padding: 4px 87px 0;
+    padding: 0px 87px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -35,16 +35,21 @@ ul{
     margin-bottom: 25px;
     padding-right: 18px;
     display: flex;
-    align-items: center;
 }
 
 li{
-    padding-left: 45px;
-    padding-bottom: 7px;
+    margin-left: 45px;
+    margin-bottom: 7px;
     font-weight: 400;
+    height: 50px;
+    padding-top: 50px;
+
 
     &:hover{
         color: $yellow;
+        border-top: 5px solid $yellow;
+        padding-top: 45px;
+        cursor: pointer;
     }
 
     .fa-chevron-down{
@@ -62,6 +67,8 @@ li{
 
 .colour{
     color: $yellow;
+        border-top: 5px solid $yellow;
+        padding-top: 45px;
 }
     
 </style>
