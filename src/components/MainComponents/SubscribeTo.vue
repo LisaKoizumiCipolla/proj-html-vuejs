@@ -4,7 +4,7 @@
             <div class="subscribe">
                 <h1 class="title">Subscribe To My Newsletter</h1>
                 <h2 class="subtitle">BE NOTIFIED ABOUT BOOK SIGNING TOUR DATES</h2>
-                <input type="text"><button class="green-button">Subscribe</button>
+                <input class="input" type="text" placeholder="Insert your email ...*"><button class="green-button">Subscribe</button>
                 <p class="gray-text">Donec fringilla nunc eu turpis dignissim, at euismod spien dicidunt.</p>
             </div>
         </div>
@@ -45,8 +45,12 @@ export default {
         padding: 30px 0 10px;
     }
 
-    input{
-        height: 30px;
+    .input{
+        height: 50px;
+        width: 260px;
+        border-radius: 5px;
+        padding: 0 10px;
+        border: none;
     }
 
     p{
