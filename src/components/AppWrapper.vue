@@ -1,10 +1,11 @@
 <template>
     <div class="fix-button">
         <button>
+            <i class="fa-solid fa-folder-open fa-lg"></i>
             <div>Prebuilds</div>
         </button>
         <button>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping fa-xl"></i>
             <div>Buy Now</div>
         </button>
     </div>
@@ -42,9 +43,20 @@ export default {
     button{
         border: none;
         border-radius: 5px;
+        background-color: white;
+        margin-bottom: 10px;
+        padding: 5px;
+        font-size: .8rem;
+        font-weight: 600;
+        color: #4a5259;
+
+        i{
+            padding: 15px 0;
+        }
 
         .fa-cart-shopping{
             transform: scaleX(-1);
+            height: 10px;
 
         }
     }

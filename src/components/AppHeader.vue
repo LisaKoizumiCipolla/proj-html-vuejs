@@ -47,11 +47,14 @@ export default {
 
     .buy{
         background-color: white;
-        color: black;
         position: absolute;
         right: 0;
         bottom: 0;
         padding: 60px 60px 40px;
+
+        h2{
+            color: black;
+        }
     }
 
     .buy-main{
