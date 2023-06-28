@@ -7,6 +7,7 @@
                 <UpcomingEvents />
                 <SubscribeTo />
                 <DigDeeper />
+                <RecentArticles />
     </body>
 </template>
 
@@ -18,6 +19,7 @@ import WhatCriticsSay from "./MainComponents/WhatCriticsSay.vue";
 import UpcomingEvents from "./MainComponents/UpcomingEvents.vue";
 import SubscribeTo from "./MainComponents/SubscribeTo.vue";
 import DigDeeper from "./MainComponents/DigDeeper.vue";
+import RecentArticles from "./MainComponents/RecentArticles.vue";
 
 
 export default {
@@ -29,7 +31,8 @@ export default {
     WhatCriticsSay,
     UpcomingEvents,
     SubscribeTo,
-    DigDeeper
+    DigDeeper,
+    RecentArticles
 } 
 }
 </script>
