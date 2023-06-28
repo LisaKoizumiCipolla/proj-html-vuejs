@@ -31,14 +31,22 @@ export default {
         .single-card{
             position: relative;
             object-fit: cover ;
+            border-radius: 0 0 40px 0;
+            transition: transform 0.5s; 
+
+            &:hover{
+                transform:scale(1.05);
+                cursor: pointer;
+                box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+            }
         }
 
         img{
             height: 520px;
             width: 410px;
-            border-radius: 0 0 40px 0;
             object-fit: cover;
             object-position: 5%;
+            border-radius: 0 0 40px 0;
         }
 
         .text{

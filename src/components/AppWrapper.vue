@@ -1,11 +1,11 @@
 <template>
     <div class="fix-button">
         <button>
-            <i class="fa-solid fa-folder-open fa-lg"></i>
+            <i class="icon fa-solid fa-folder-open fa-lg"></i>
             <div>Prebuilds</div>
         </button>
         <button>
-            <i class="fa-solid fa-cart-shopping fa-xl"></i>
+            <i class="icon fa-solid fa-cart-shopping fa-xl"></i>
             <div>Buy Now</div>
         </button>
     </div>
@@ -50,6 +50,10 @@ export default {
         font-weight: 700;
         color: #4a5259;
         box-shadow: 0 -5px 20px 5px rgba(0,0,0,.15);
+
+        &:hover .icon{
+            animation: 3s ease-in 1s infinite reverse both running slidein;
+        }
 
         i{
             padding: 17px;

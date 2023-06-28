@@ -123,6 +123,13 @@ export default {
         height: 745px;
         width: 100%;
         object-fit: cover;
+        transition: transform 0.5s; 
+
+        &:hover{
+            transform:scale(1.05);
+            cursor: pointer;
+            box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+        }
     }
 
     }
@@ -133,6 +140,10 @@ export default {
         right: 50%;
         transform: translate(50%);
         width: 76%;
+
+            &:hover + .main-img{
+                transform:scale(1.05);
+            }
 
         h2{
         color: white;
